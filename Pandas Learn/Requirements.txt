@@ -1,0 +1,26 @@
+1- understand the data set
+2- identify the problem
+3- plan the next steps
+
+"Ask yourself about the data set"
+1- How big is the data set?
+2- What are the names of the columns and rows?
+
+"Selection And Filteration"
+1- Selecting columns{
+    #column = df['column_name']
+    #subset = df[['column_name1', 'column_name2', '...]]
+    returns(
+        1- A series
+        2- A DataFrame multiple columns of data
+        )
+    }
+2- Filtering rows{
+    # Based on a single condition(
+    #     filtered_Rows = df[df['Salary'] > 5000]
+    #     )
+
+3- Combine multiple conditions(
+    #     filtered_Rows = df[(df['Salary'] > 5000) & (df['Age'] < 35)]
+    #     )
+    }
